@@ -19,3 +19,7 @@ git clone https://github.com/gojaebeom/spring-apiserver-starterpack.git
 - Oauth2(카카오만 구현) 서비스
 - 앱 개발, 배포환경 설정 파일 분리
 - 서버 업로드 시 로그백 파일 생성
+- 이미지 업로드 서비스
+    - 로컬 저장 
+    - 아마존 S3 저장( 구현 예정 )
+- 메일 서비스 

@@ -1,7 +1,7 @@
 package com.example.api.service;
 
-import kr.co.hohocompany.exception.CustomException;
-import kr.co.hohocompany.exception.ExceptionType;
+import com.example.api.exception.CustomException;
+import com.example.api.exception.ExceptionType;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -16,7 +16,7 @@ import java.util.*;
 @Component
 public class ImageService {
 
-    @Value("${custom.path.upload-images}")
+    @Value("${custom.upload-path.images}")
     private String uploadPath;
 
     // 단일 파일에 대응하는 이미지 업로드
